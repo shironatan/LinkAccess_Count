@@ -1,0 +1,20 @@
+CREATE DATABASE データベース名;
+use データベース名;
+CREATE TABLE Link_History(
+
+Link_ID int AUTO_INCREMENT PRIMARY KEY,
+
+Link_Jumpdate DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+Link_Column varchar(15)
+
+);
+
+
+CREATE TABLE Access(
+
+Access_ID int AUTO_INCREMENT PRIMARY KEY,
+
+Access_Jumpdate DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+
+);
